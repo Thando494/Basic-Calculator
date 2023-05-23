@@ -1,0 +1,204 @@
+body {
+  background-color: rgb(189, 246, 248);
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculator {
+  height: 1080px;
+  width: 1920px;
+  background-color: rgb(189, 246, 248);
+}
+
+#outline {
+  width: 700px;
+  height: 1000px;
+  background-color: rgb(243, 196, 40);
+  margin: 600px;
+  border-radius: 25px;
+}
+
+button {
+  font-size: 5vw;
+  margin-left: 0px;
+  margin-top: 12px;
+  color: white;
+  font-family: Arial;
+}
+
+h3 {
+  margin-left: 5px;
+}
+
+#Margin-top {
+  width: 600px;
+  height: 15px;
+}
+
+#screen {
+  font-size: 5vw;
+}
+
+#screen {
+  width: 650px;
+  height: 230px;
+  background-color: rgb(27, 155, 187);
+  border-radius: 25px;
+  margin: 25px;
+}
+
+#Row-one {
+  display: flex;
+  margin-left: 30px;
+}
+
+#Seven {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  background-color: rgb(27, 155, 187);
+}
+
+#Seven {
+  font-size: 6vw;
+}
+
+#Eight {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  background-color: rgb(27, 155, 187);
+  margin-left: 25px;
+}
+
+#Nine {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  background-color: rgb(27, 155, 187);
+  margin-left: 25px;
+}
+
+#Multiply {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  background-color: rgb(27, 155, 187);
+  margin-left: 25px;
+}
+
+#Row-two {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#Four {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  background-color: rgb(27, 155, 187);
+}
+
+#Five {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  background-color: rgb(27, 155, 187);
+  margin-left: 25px;
+}
+
+#Six {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  background-color: rgb(27, 155, 187);
+  margin-left: 25px;
+}
+
+#Divide {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  background-color: rgb(27, 155, 187);
+  margin-left: 25px;
+}
+
+#Row-three {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#h2 {
+  margin-right: 50px;
+  margin-top: 12px;
+}
+
+#One {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  background-color: rgb(27, 155, 187);
+}
+
+#Two {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  background-color: rgb(27, 155, 187);
+  margin-left: 25px;
+}
+
+#Three {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  background-color: rgb(27, 155, 187);
+  margin-left: 25px;
+}
+
+#Subtract {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  background-color: rgb(27, 155, 187);
+  margin-left: 25px;
+}
+
+#Row-four {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#C {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  background-color: rgb(27, 155, 187);
+}
+
+#Zero {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  background-color: rgb(27, 155, 187);
+  margin-left: 25px;
+}
+
+#Total {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  background-color: rgb(27, 155, 187);
+  margin-left: 25px;
+}
+
+#Adding {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  background-color: rgb(27, 155, 187);
+  margin-left: 25px;
+}

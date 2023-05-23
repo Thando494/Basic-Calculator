@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic calculator</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <main class="calculator">
+      <div id="outline">
+        <div id="Margin-top"></div>
+        <input type="text" id="screen" value="3*3" enable />
+
+        <div id="Row-one">
+          <button id="Seven" onclick="appendToDisplay('7')">7</button>
+          <button id="Eight" onclick="appendToDisplay('8')">8</button>
+          <button id="Nine" onclick="appendToDisplay('9')">9</button>
+          <button id="Multiply" onclick="appendToDisplay('*')">*</button>
+        </div>
+
+        <div id="Row-two">
+          <button id="Four" onclick="appendToDisplay('4')">4</button>
+          <button id="Five" onclick="appendToDisplay('5')">5</button>
+          <button id="Six" onclick="appendToDisplay('6')">6</button>
+          <button id="Divide" onclick="appendToDisplay('/')">/</button>
+        </div>
+
+        <div id="Row-three">
+          <button id="One" onclick="appendToDisplay('1')">1</button>
+          <button id="Two" onclick="appendToDisplay('2')">2</button>
+          <button id="Three" onclick="appendToDisplay('3')">3</button>
+          <button id="Subtract" onclick="appendToDisplay('-')">-</button>
+        </div>
+
+        <div id="Row-four">
+          <button id="C" onclick="clearDisplay()">C</button>
+          <button id="Zero" onclick="appendToDisplay('0')">0</button>
+          <button id="Total" onclick="calculate()">=</button>
+          <button id="Adding" onclick="appendToDisplay('+')">+</button>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <script defer src="js/main.js"></script>
+</html>
